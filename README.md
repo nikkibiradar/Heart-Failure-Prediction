@@ -23,3 +23,21 @@ To develop an effective predictive model for heart disease, we have combined fiv
 
 Four different machine learning models, namely Logistic Regression, Decision Tree, K-Nearest Neighbors, and Naive Bayes, have been trained and evaluated with varying feature sets to determine the most effective approach for heart disease prediction.
 
+![Methodology for the Project](images/MethodologyfortheProject.png)
+
+## 4. EXPERIMENTS
+### 4.1. Exploratory Data Analysis (EDA)
+4.1.1. Distribution of categorical data. The visualization of categorical features to check how they have been transformed by the Label Encoder and if the features require scaling for uniform distribution. From the graphs, We can see that the categorial feature data is almost nearly normally distributed.  
+
+4.1.2. Distribution of numerical data. Checking the distribution of numerical features to be able to detect features in need of scaling, visually. Here, we can observe that data distribution for Oldpeak is biased towards the right and data distribution for cholestrol is bimodel i.e two modes. Hence, we can mark them as features that require scaling during feature engineering.  
+
+4.1.3. Distribution of target feature. Here, we have visualized to ensure that we have enough cases for both scenarios i.e. presence of Heart diseases and its absence since the data should have good distribution to be able to predict if person will have a heart failure or not.  
+
+4.1.4. Extra Insights. Plotting the matrix representation for relationship between every feature of the dataset with any other feature. This is primarily done to check the relationship of feature pairs with one another since highly correlated features can reduce the efficiency of the model. Hence, this is an important step in assessing feature importance in the dataset along with pattern recognition and outlier detection. The main purpose of this step in our project was to observe cluster segregation in order to see which features have less correlation, eg: cholesterol vs MaxHR, MaxHR vs OldPeak, bad eg, cholesterol vs restingbp.
+
+### 4.2. Feature Engineering/Selection  
+After compiling all the previous observations we did through EDA, we can move towards feature engineering where the first step would be to scale the features that don’t fit their range properly. The Oldpeak feature was normalized because it had a right-skewed distribution. This means that the data was shifted towards higher values, so normalization was used to adjust the data to a more standard distribution. The Age, RestingBP, Cholesterol, and MaxHR features were standardized because they had a normal distribution. This means that the data was evenly spread out around the mean, so standardization was used to scale down the data and make it easier to compare across features.  
+
+Anova and chi-squared tests are used to determine the significance of the relationship between variables and the target variable, from the two tests we conclude to keep out RestingBP feature from model training and testing and consider the remaining features (since it had the lowest score).
+
+Removing the features that don’t have much contribution in the modeling/prediction (RestingBP and RestingECG). After selecting the features, splitting the data as 80% train and 20% test data.
