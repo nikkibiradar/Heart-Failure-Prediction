@@ -69,3 +69,5 @@ Removing the features that don’t have much contribution in the modeling/predic
 
 ### 4.3. Logistic Regression Model  
 
+![Methodology for the Project](images/ChiSquaredTest.png)
+> Table 1: Logistic Regression Accuracies with all features 11
