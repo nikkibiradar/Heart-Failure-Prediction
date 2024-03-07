@@ -84,6 +84,9 @@ Removing the features that don’t have much contribution in the modeling/predic
 ![Methodology for the Project](images/Table5.png)
 > Table  5: Logistic Regression Matrix after Removing "RestingECG" and "RestingBP"
 
+![Methodology for the Project](images/LRegressionCM.png)
+> Figure 10: Logistic Regression Confusion Matrix after Removing "RestingECG" and "RestingBP"
+
 ### 4.4. Decision Tree using Random Forest
 
 ![Methodology for the Project](images/Table6.png)
