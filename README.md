@@ -123,3 +123,44 @@ Removing the features that don’t have much contribution in the modeling/predic
 
 ![Methodology for the Project](images/NaiveBayesCM.png)
 > Figure 12: Naive Bayes Confusion Matrix after Removing "RestingECG" and "RestingBP"
+
+### 4.6. K-nearest Neighbors Classifier (k=27)
+
+![Methodology for the Project](images/Table16.png)
+> Table 16: K-nearest neighbors classifier Accuracies with all features 11 (k=27)
+
+![Methodology for the Project](images/Table17.png)
+> Table 17: K-nearest neighbors classifier Accuracies after Removing "RestingECG" (k=27)
+
+![Methodology for the Project](images/Table18.png)
+> Table 18: K-nearest neighbors classifier Accuracies after Removing "RestingBP" (k=27)
+
+![Methodology for the Project](images/Table19.png)
+> Table 19: K-nearest neighbors classifier Accuracies after Removing "RestingECG" and "RestingBP" (k=27)
+
+![Methodology for the Project](images/Table20.png)
+> Table 20: K-nearest neighbors classifier Matrix after Removing "RestingECG" and "RestingBP" (k=27)
+
+![Methodology for the Project](images/knnCM.png)
+> Figure 13: K-nearest neighbors classifier Confusion Matrix after Removing "RestingECG" and "RestingBP" (k=27)
+
+### 4.7. K-nearest Neighbors Classifier (k=10)
+
+![Methodology for the Project](images/Table21.png)
+> Table 21: K-nearest neighbors classifier Accuracies (k=10)
+
+![Methodology for the Project](images/Table22.png)
+> Table 22: K-nearest neighbors classifier Matrix (k=10)
+
+![Methodology for the Project](images/knnCM10.png)
+> Figure 14: K-nearest neighbors classifier Confusion Matrix (k=10)
+
+## 5. CONCLUSION  
+
+After seeing averages of all dataset variations, I choose the 4th option as the most accurate dataset. The model with highest accuracy turns out to be Logistic Regression.
+
+![Methodology for the Project](images/Table23.png)
+> Table 23: Average Accuracies
+
+![Methodology for the Project](images/Table24.png)
+> Table Table 24: Perfomance Metrics for the algorithms
