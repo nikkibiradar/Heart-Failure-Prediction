@@ -66,3 +66,6 @@ Removing the features that don’t have much contribution in the modeling/predic
 
 ![Methodology for the Project](images/AnovaTest.png)
 > Figure 9: Feature Selection for Numerical Features using ANOVA test
+
+### 4.3. Logistic Regression Model  
+
