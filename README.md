@@ -69,5 +69,57 @@ Removing the features that don’t have much contribution in the modeling/predic
 
 ### 4.3. Logistic Regression Model  
 
-![Methodology for the Project](images/ChiSquaredTest.png)
+![Methodology for the Project](images/Table1.png)
 > Table 1: Logistic Regression Accuracies with all features 11
+
+![Methodology for the Project](images/Table2.png)
+> Table 2: Logistic Regression Accuracies after Removing "RestingECG"
+
+![Methodology for the Project](images/Table3.png)
+> Table 3: Logistic Regression Accuracies after Removing "RestingBP"
+
+![Methodology for the Project](images/Table4.png)
+> Table 4: Logistic Regression Accuracies after Removing "RestingECG" and "RestingBP"
+
+![Methodology for the Project](images/Table5.png)
+> Table  5: Logistic Regression Matrix after Removing "RestingECG" and "RestingBP"
+
+### 4.4. Decision Tree using Random Forest
+
+![Methodology for the Project](images/Table6.png)
+> Table 6: Decision Tree Accuracies with all features 11
+
+![Methodology for the Project](images/Table7.png)
+> Table  7: Decision Tree Accuracies after Removing "RestingECG"
+
+![Methodology for the Project](images/Table8.png)
+> Table 8: Decision Tree Accuracies after Removing "RestingBP"
+
+![Methodology for the Project](images/Table9.png)
+> Table 9: Decision Tree Accuracies after Removing "RestingECG" and "RestingBP"
+
+![Methodology for the Project](images/Table10.png)
+> Table 10: Decision Tree Matrix after Removing "RestingECG" and "RestingBP"
+
+![Methodology for the Project](images/DTreeCM.png)
+> Figure 11: Decision Tree Confusion Matrix after Removing "RestingECG" and "RestingBP"
+
+### 4.5. Naive Bayes  
+
+![Methodology for the Project](images/Table11.png)
+> Table 11: Naive Bayes Accuracies with all features 11
+
+![Methodology for the Project](images/Table12.png)
+> Table 12: Naive Bayes Accuracies after Removing "RestingECG"
+
+![Methodology for the Project](images/Table13.png)
+> Table 13:  Naive Bayes Accuracies after Removing "RestingBP"
+
+![Methodology for the Project](images/Table14.png)
+> Table 14: Naive Bayes Accuracies after Removing "RestingECG" and "RestingBP"
+
+![Methodology for the Project](images/Table15.png)
+> Table 15: Naive Bayes Matrix after Removing "RestingECG" and "RestingBP"
+
+![Methodology for the Project](images/NaiveBayesCM.png)
+> Figure 12: Naive Bayes Confusion Matrix after Removing "RestingECG" and "RestingBP"
