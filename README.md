@@ -45,3 +45,24 @@ Removing the features that don’t have much contribution in the modeling/predic
 
 ![Methodology for the Project](images/CategorialDistribution.png)
 > Figure 2: Distribution of categorical data
+
+![Methodology for the Project](images/NumericalDistribution.png)
+> Figure 3: Distribution of numerical data
+
+![Methodology for the Project](images/TargetFeatureVisualization.png)
+> Figure 4: Visualization of distribution of target feature i.e. Heart Diease
+
+![Methodology for the Project](images/MatrixPlot.png)
+> Figure 5: Matrix of plots that shows the relationship between multiple pairs of features in a dataset
+
+![Methodology for the Project](images/CorrelationMatrix.png)
+> Figure 6: Correlation matrix
+
+![Methodology for the Project](images/TargetCorrelation.png)
+> Figure 7: Correlation with respect to target variable only
+
+![Methodology for the Project](images/ChiSquaredTest.png)
+> Figure 8: Feature Selection for Categorical Features using Chi-Squared test
+
+![Methodology for the Project](images/AnovaTest.png)
+> Figure 9: Feature Selection for Numerical Features using ANOVA test
