@@ -24,6 +24,7 @@ To develop an effective predictive model for heart disease, we have combined fiv
 Four different machine learning models, namely Logistic Regression, Decision Tree, K-Nearest Neighbors, and Naive Bayes, have been trained and evaluated with varying feature sets to determine the most effective approach for heart disease prediction.
 
 ![Methodology for the Project](images/MethodologyfortheProject.png)
+> Figure 1: Methodology for the Project
 
 ## 4. EXPERIMENTS
 ### 4.1. Exploratory Data Analysis (EDA)
@@ -41,3 +42,6 @@ After compiling all the previous observations we did through EDA, we can move to
 Anova and chi-squared tests are used to determine the significance of the relationship between variables and the target variable, from the two tests we conclude to keep out RestingBP feature from model training and testing and consider the remaining features (since it had the lowest score).
 
 Removing the features that don’t have much contribution in the modeling/prediction (RestingBP and RestingECG). After selecting the features, splitting the data as 80% train and 20% test data.
+
+![Methodology for the Project](images/CategorialDistribution.png)
+> Figure 2: Distribution of categorical data
