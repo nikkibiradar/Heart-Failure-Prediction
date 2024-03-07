@@ -167,3 +167,12 @@ After seeing averages of all dataset variations, I choose the 4th option as the 
 
 ![Methodology for the Project](images/Table24.png)
 > Table Table 24: Perfomance Metrics for the algorithms
+
+## REFERENCES  
+
+1. [n. d.]. How to find the optimal value of K in KNN. https://towardsdatascience.com/how-to-find-the-optimal-value-of-k-in-knn-35d936e554eb Accessed: yyyymm-dd.
+2. Scaling Kaggle Competitions using XGBoost (Part 4). https://pyimagesearch.com/2023/01/23/scaling-kaggle-competitions-using-xgboost-part-4/ Accessed: yyyy-mm-dd.
+3. S. Alshakrani and S. Hilal. 2022. A Comparative Study of Heart Disease Prediction Using Classification Techniques. In 2022 International Conference on Decision Aid Sciences and Applications (DASA). IEEE, Chiangrai, Thailand, 11–16. https://doi.org/10.1109/DASA54658.2022.9765241
+4. B. Gnaneswar and M. R. E. Jebarani. 2017. A review on prediction and diagnosis of heart failure. In 2017 International Conference on Innovations in Information, Embedded and Communication Systems (ICIIECS). IEEE, Coimbatore, India, 1–3. https://doi.org/10.1109/ICIIECS.2017.8276033
+5. Prasanta Kumar Sahoo and Pravalika Jeripothula. 2020. Heart Failure Prediction Using Machine Learning Techniques. (Dec 2020). https://doi.org/10.2139/ssrn.3759562
+6. Fede Soriano. [n. d.]. Heart Failure Prediction. https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction Accessed: yyyy-mm-dd.
